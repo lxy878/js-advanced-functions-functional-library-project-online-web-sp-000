@@ -94,6 +94,7 @@ const fi = (function() {
           }else {
             collection.push(current)
           }
+          return collection;
         }, [])
       }else{
         re(array, newArray);
