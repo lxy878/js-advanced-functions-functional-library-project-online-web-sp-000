@@ -88,7 +88,13 @@ const fi = (function() {
         }
       }
       if (shallow){
+        array.reduce((collection, current) => {
+          if(Array.isArray(current)){
+            collection.push([...current]);
+          }else {
 
+          }
+        }, [])
       }else{
         re(array, newArray);
       }
