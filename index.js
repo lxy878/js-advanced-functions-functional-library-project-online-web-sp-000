@@ -82,7 +82,7 @@ const fi = (function() {
       // }
     },
 
-    uniq: function(array, isSorted, cb){
+    uniq: function(array, isSorted, cb=e=>e{
       const newArray = [array[0]];
       if (isSorted){
         for(let i=1; i<array.length; i++){
