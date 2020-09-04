@@ -5,7 +5,7 @@ const fi = (function() {
     },
 
     each: function(collection, cb) {
-      const newCollection = (collection instanceof Array) ? collection.slice() : Object.values(collection);
+      const newCollection = (Array.isArray(collection)) ? collection.slice() : Object.values(collection);
       for (const element of newCollection)
         cb(element);
 
