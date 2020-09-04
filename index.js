@@ -92,7 +92,7 @@ const fi = (function() {
           if(Array.isArray(current)){
             collection.push([...current]);
           }else {
-
+            collection.push(current)
           }
         }, [])
       }else{
