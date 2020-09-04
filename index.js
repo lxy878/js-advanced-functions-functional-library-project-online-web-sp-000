@@ -123,5 +123,5 @@ const fi = (function() {
   }
 })()
 
-console.log(fi.uniq([1,2,3,5,4,4,5,6]));
+console.log(fi.uniq([1,2,3,5,4,4,5,6], false, x=>x%3));
 // console.log(fi.size({'1': 1,'a': 2,'cc': 3}));
