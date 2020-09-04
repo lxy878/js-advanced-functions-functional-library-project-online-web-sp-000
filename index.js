@@ -81,7 +81,7 @@ const fi = (function() {
       const re = (array, newArray) => {
         for(const e of array){
           if(e instanceof Array){
-            re(e, newArray)
+            re(e, newArray);
           }
         }
       }
