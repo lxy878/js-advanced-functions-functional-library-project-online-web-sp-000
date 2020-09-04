@@ -80,7 +80,7 @@ const fi = (function() {
       const newArray = [];
       const re = (array, newArray) => {
         for(const e of array){
-          if(Array.is(e)){
+          if(Array.isArray(e)){
             re(e, newArray);
           }else{
             newArray.push(e);
