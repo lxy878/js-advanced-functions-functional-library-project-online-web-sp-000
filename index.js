@@ -92,7 +92,7 @@ const fi = (function() {
         }
       }else{
         for(let i=1; i<array.lenght; i++){
-          if(!newArray.include(cb(array[i]){
+          if(!newArray.include(cb(array[i])){
             newArray.push(array[i])
           }
         }
