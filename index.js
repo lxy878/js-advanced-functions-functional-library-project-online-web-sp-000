@@ -96,7 +96,7 @@ const fi = (function() {
         if (callback) cb = callback;
         for(let i=1; i<array.length; i++){
           // console.log(newArray)
-          if(!newArray.include(cb(array[i]))){
+          if(!newArray.includes(cb(array[i]))){
             newArray.push(array[i])
           }
         }
