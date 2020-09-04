@@ -89,6 +89,8 @@ const fi = (function() {
       }
       if (shallow){
 
+      }else{
+        re(array, newArray);
       }
       // if (array[0] instanceof Array){
       //   this.flatten(array[0]);
