@@ -5,7 +5,7 @@ const fi = (function() {
     },
 
     each: function(collection, cb) {
-      const newCollection = (Array.isArray(collection)) ? collection.slice() : Object.values(collection);
+      const newCollection = (Array.isArray(collection)) ? [...collection] : Object.values(collection);
       for (const element of newCollection)
         cb(element);
 
@@ -13,7 +13,7 @@ const fi = (function() {
     },
 
     map: function(collection, cb) {
-      const newCollection = (Array.isArray(collection)) ? collection.slice() : Object.values(collection);
+      const newCollection = (Array.isArray(collection)) ? [...collection] : Object.values(collection);
       const results = [];
       for(const element of newCollection)
         results.push(cb(element));
