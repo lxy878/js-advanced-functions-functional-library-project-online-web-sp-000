@@ -119,5 +119,5 @@ const fi = (function() {
   }
 })()
 
-// console.log(fi.functions(fi));
+console.log(fi.unique([1,2,3,3,4,4,5]));
 // console.log(fi.size({'1': 1,'a': 2,'cc': 3}));
