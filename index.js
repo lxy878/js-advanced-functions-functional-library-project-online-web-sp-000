@@ -77,6 +77,7 @@ const fi = (function() {
     },
 
     flatten: function(array, shallow){
+      const re = (array)
       // if (array[0] instanceof Array){
       //   this.flatten(array[0]);
       // }
