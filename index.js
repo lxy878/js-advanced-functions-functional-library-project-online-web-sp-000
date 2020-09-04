@@ -83,7 +83,7 @@ const fi = (function() {
     },
 
     uniq: function(array, isSorted, cb){
-
+      const obj = {}
     },
 
     keys: function(object){
