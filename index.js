@@ -138,5 +138,5 @@ const fi = (function() {
   }
 })()
 
-console.log(fi.flatten([1,[2,[3,[5,4,[4,[5,[[[6]]]]]]]]]));
+console.log(fi.flatten([1, [2, 3], [[4, 5], 6, [7, [8, 9]]]]));
 // console.log(fi.size({'1': 1,'a': 2,'cc': 3}));
