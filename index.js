@@ -82,6 +82,8 @@ const fi = (function() {
         for(const e of array){
           if(e instanceof Array){
             re(e, newArray);
+          }else{
+            newArray.push(e);
           }
         }
       }
