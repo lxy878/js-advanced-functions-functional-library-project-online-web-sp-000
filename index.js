@@ -92,7 +92,7 @@ const fi = (function() {
         }
       }else{
         for(let i=1; i<array.lenght; i++){
-          if(newArray.include())
+          if(newArray.include(array[i]))
         }
       }
       return newArray;
