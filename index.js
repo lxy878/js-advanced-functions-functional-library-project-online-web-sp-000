@@ -87,6 +87,7 @@ const fi = (function() {
       for (const e of array)
         if (!obj[e])
           obj[e] = ''
+      return obj
     },
 
     keys: function(object){
