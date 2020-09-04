@@ -83,7 +83,13 @@ const fi = (function() {
     },
 
     uniq: function(array, isSorted, cb){
-      const obj = [array[0]];
+      const newArray = [array[0]];
+      if (isSorted){
+        for(let i=1; i<array.length; i++){
+          if (array[i-1] !== array[i])
+
+        }
+      }
       for (const e of array)
         if (!obj[e])
           obj[e] = ''
