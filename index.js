@@ -93,7 +93,7 @@ const fi = (function() {
       }else{
 
       }
-      return newArray
+      return newArray;
     },
 
     keys: function(object){
