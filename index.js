@@ -95,7 +95,6 @@ const fi = (function() {
       }else{
         if (callback) cb = callback;
         for(let i=1; i<array.length; i++){
-          // console.log(newArray)
           if(!newArray.find(e => cb(e) === cb(array[i]))){
             newArray.push(array[i])
           }
