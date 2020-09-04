@@ -86,13 +86,14 @@ const fi = (function() {
       const newArray = [array[0]];
       if (isSorted){
         for(let i=1; i<array.length; i++){
-          if (array[i-1] !== array[i]) newArray.push(array[i])
+          if (array[i-1] !== array[i]) {
+            newArray.push(array[i])
+          }
         }
+      }else{
+        
       }
-      for (const e of array)
-        if (!obj[e])
-          obj[e] = ''
-      return Object.keys(obj);
+      return newArray
     },
 
     keys: function(object){
