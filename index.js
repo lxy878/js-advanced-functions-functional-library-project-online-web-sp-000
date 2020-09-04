@@ -95,9 +95,9 @@ const fi = (function() {
       }else{
         if (callback) cb = callback;
         for(let i=1; i<array.lenght; i++){
-          // if(!newArray.include(cb(array[i])){
-          //   newArray.push(array[i])
-          // }
+          if(!newArray.include(cb(array[i])){
+            newArray.push(array[i])
+          }
         }
       }
       return newArray;
