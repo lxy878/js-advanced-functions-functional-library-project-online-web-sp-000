@@ -95,7 +95,7 @@ const fi = (function() {
       // if (array[0] instanceof Array){
       //   this.flatten(array[0]);
       // }
-
+      console.log(newArray)
       return newArray;
     },
 
