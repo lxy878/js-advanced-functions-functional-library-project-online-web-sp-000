@@ -94,7 +94,7 @@ const fi = (function() {
       //   this.flatten(array[0]);
       // }
 
-      return newArray
+      return newArray;
     },
 
     uniq: function(array, isSorted, callback){
