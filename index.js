@@ -85,7 +85,7 @@ const fi = (function() {
           }else{
             newArray.push(e);
           }
-          console.log(e)
+          console.log(newArray)
         }
       }
       if (shallow){
