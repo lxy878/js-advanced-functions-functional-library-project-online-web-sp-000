@@ -87,9 +87,14 @@ const fi = (function() {
           }
         }
       }
+      if (shallow){
+
+      }
       // if (array[0] instanceof Array){
       //   this.flatten(array[0]);
       // }
+
+      return newArray
     },
 
     uniq: function(array, isSorted, callback){
