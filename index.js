@@ -84,7 +84,7 @@ const fi = (function() {
 
     uniq: function(array, isSorted, callback){
       const newArray = [array[0]];
-      const
+      const cb = (e) => e;
       if (isSorted){
         for(let i=1; i<array.length; i++){
           if (array[i-1] !== array[i]) {
