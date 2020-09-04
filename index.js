@@ -79,8 +79,11 @@ const fi = (function() {
     flatten: function(array, shallow){
       const newArray = [];
       const re = (array, newArray) => {
-        for(const e of array)
-        if (array)
+        for(const e of array){
+          if(e instanceof Array){
+            re(e, newArray)
+          }
+        }
       }
       // if (array[0] instanceof Array){
       //   this.flatten(array[0]);
